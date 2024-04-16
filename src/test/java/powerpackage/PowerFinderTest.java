@@ -23,4 +23,14 @@ public class PowerFinderTest {
     public void threeRaisedToTwoIsNine() {
         assert PowerFinder.power(3, 2) == 9;
     }
+
+    @Test
+    public void twoRaisedToMinusOneIsHalf() {
+        assert PowerFinder.power(2,-1) == 0.5;
+    }
+
+    @Test
+    public void twoRaisedToZeroIsOne() {
+        assert PowerFinder.power(2,0) == 1;
+    }
 }
